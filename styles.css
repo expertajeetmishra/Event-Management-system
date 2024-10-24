@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+header nav a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 2em;
+    margin: 20px auto;
+    max-width: 800px; /* Center the sections */
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1, h2 {
+    color: #4CAF50; /* Consistent green color */
+}
+
+/* Form Styles */
+form {
+    margin-top: 1em;
+    display: flex; /* Flexbox for form layout */
+    flex-direction: column; /* Stack inputs vertically */
+}
+
+input {
+    margin-bottom: 10px; /* Space between inputs */
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+input:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Upcoming Birthdays List */
+#birthdayList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#birthdayList li {
+    background-color: #f9f9f9; /* Light grey background */
+    margin: 10px 0; /* Space between list items */
+    padding: 10px;
+    border-left: 5px solid #4CAF50; /* Green left border */
+    border-radius: 4px; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth transition */
+}
+
+#birthdayList li:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+}
