@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="userhomepage.html">Home</a></li>
+                    <li><a href="#add-birthday">Add Birthday</a></li>
+                    <li><a href="#upcoming-birthdays">Upcoming Birthdays</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="login.html">login</a></li>
+                </ul>
+            </nav>
+        </header >
+    
+        <section id="home">
+            <h1>Welcome to Birthday Reminder</h1>
+            <p>Keep track of your friends' and family members' birthdays!</p>
+        </section>
+    
+        <section id="add-birthday">
+            <h2>Add Birthday</h2>
+            <form id="birthdayForm " action="signup.java">
+                <input type="text" id="name" name="name" placeholder="Enter Name" required>
+                <input type="date" id="date" name ="date" required>
+                <button type="submit">Add Birthday</button>
+            </form>
+        </section>
+    
+        <section id="upcoming-birthdays">
+            <h2>Upcoming Birthdays</h2>
+            <ul id="birthdayList"></ul>
+        </section>
+    
+        <section id="about">
+            <h2>About Us</h2>
+            <p>This application helps you remember birthdays of your loved ones.</p>
+        <p>FOR MORE INFORMATION PLEASE CONTACT US AT 9977758021</p>
+            <p> EMAIL US AT rukshirathore77777@gmail.com</p>
+     </section>
+        <script src="script.js"></script>
+    </body>
+    </html>
+
+
+
